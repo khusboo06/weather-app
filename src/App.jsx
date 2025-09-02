@@ -22,7 +22,7 @@ function App() {
   const [toastMessage, setToastMessage] = useState("");
 
 
-  const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+  const apiKey = import.meta.env.VITE_PUBLIC_WEATHER_API_KEY;
 
   useEffect(() => {
     const savedCities = JSON.parse(localStorage.getItem("recentCities")) || [];
