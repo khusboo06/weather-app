@@ -53,7 +53,7 @@ const ForecastCard = ({ forecast }) => {
           return (
             <div
               key={index}
-              className="bg-gray-200 dark:bg-gray-900 rounded-xl p-4 text-center transition transform hover:scale-[1.03] duration-300 shadow border border-gray-200 dark:border-gray-700"
+              className="bg-blue-100 dark:bg-gray-900 rounded-xl p-4 text-center transition transform hover:scale-[1.03] duration-300 shadow border border-gray-400 dark:border-gray-700"
                style={{ boxShadow: "0 1px 6px rgba(255, 255, 255, 0.08)" }}>
               <div className="text-lg font-medium text-gray-700 dark:text-white mb-1">
                 {time}

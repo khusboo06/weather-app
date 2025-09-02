@@ -75,7 +75,7 @@ const WeatherSummary = ({ data }) => {
   );
 
   return (
-    <div className="flex flex-col h-full bg-gray-200 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-lg p-4 sm:p-6 w-full max-w-sm sm:max-w-md lg:max-w-lg text-center text-gray-800 dark:text-gray-100 transition-all duration-300 hover:scale-[1.02]"  style={{ boxShadow: "0 1px 6px rgba(255, 255, 255, 0.08)" }}>
+    <div className="flex flex-col h-full bg-blue-100 dark:bg-gray-900 border border-gray-400 dark:border-gray-700 rounded-2xl shadow-lg p-4 sm:p-6 w-full max-w-sm sm:max-w-md lg:max-w-lg text-center text-gray-800 dark:text-gray-100 transition-all duration-300 hover:scale-[1.02]"  style={{ boxShadow: "0 1px 6px rgba(255, 255, 255, 0.08)" }}>
       <div className="flex items-center justify-center gap-2 mb-3">
         <Sparkles className="dark:text-yellow-500 animate-bounce text-blue-950" />
         <h3 className="text-xl font-bold tracking-wide">AI Weather Summary</h3>

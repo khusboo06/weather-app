@@ -6,7 +6,7 @@ const Header = () => {
     <div className="w-full flex justify-center">
       <header className="text-center mb-6 animate-fade-in-up flex justify-center items-center flex-col gap-3 px-4">
     
-        <div className="flex items-center justify-center gap-3 sm:gap-3 flex-wrap">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 flex-wrap">
           <CloudSun
             className="text-blue-900 dark:text-yellow-400"
             size={53}

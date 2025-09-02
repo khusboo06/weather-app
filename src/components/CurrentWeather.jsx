@@ -20,7 +20,7 @@ const CurrentWeather = ({ data }) => {
   const icon = getIcon(weather[0].main);
 
   return (
-    <div className="flex flex-col h-full bg-gray-200 dark:bg-gray-900 shadow rounded-2xl p-4 sm:p-6 text-center w-full max-w-sm sm:max-w-md lg:max-w-lg transition duration-300 animate-fade-in hover:scale-[1.02] border border-gray-200 dark:border-gray-700"  style={{ boxShadow: "0 1px 6px rgba(255, 255, 255, 0.08)" }}>
+    <div className="flex flex-col h-full bg-blue-100 dark:bg-gray-900 shadow rounded-2xl p-4 sm:p-6 text-center w-full max-w-sm sm:max-w-md lg:max-w-lg transition duration-300 animate-fade-in hover:scale-[1.02] border border-gray-400 dark:border-gray-700"  style={{ boxShadow: "0 1px 6px rgba(255, 255, 255, 0.08)" }}>
       <h2 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">{name}</h2>
       <div className="flex justify-center mb-2">{icon}</div>
       <p className="capitalize text-lg text-gray-700 dark:text-gray-300">{weather[0].description}</p>
