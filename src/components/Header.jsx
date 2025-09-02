@@ -6,10 +6,11 @@ const Header = () => {
     <div className="w-full flex justify-center">
       <header className="text-center mb-6 animate-fade-in-up flex justify-center items-center flex-col gap-3 px-4">
     
-        <div className="flex items-center justify-center gap-2 sm:gap-3 flex-wrap">
+        <div className="flex items-center justify-center gap-3 sm:gap-3 flex-wrap">
           <CloudSun
             className="text-blue-900 dark:text-yellow-400"
-            size={50}
+            size={53}
+            
           />
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-blue-900 dark:text-yellow-300 tracking-wide drop-shadow-lg">
             WeatherMate
